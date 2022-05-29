@@ -8,4 +8,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="person">Person</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="enter_last_name">Введите фамилию</string>
+    <string name="department">Отдел</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
 </resources>
