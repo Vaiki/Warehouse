@@ -6,7 +6,6 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.example.warehouse.R
 import com.example.warehouse.databinding.ActivityMainBinding
-import com.example.warehouse.databinding.FragmentPersonBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNav.selectedItemId = R.id.homeItemBottomNav
         binding.bottomNav.setOnItemSelectedListener {
             when (it.itemId) {
-                R.id.addPersonBottomNav -> bottomNavigation(PersonFragment())
+                R.id.addPersonBottomNav -> bottomNavigation(EmployeeFragment())
                 R.id.searchItemBottomNav -> bottomNavigation(SearchFragment())
                 R.id.homeItemBottomNav -> bottomNavigation(HomeFragment())
                 R.id.historyItemBottomNav -> bottomNavigation(HistoryFragment())
